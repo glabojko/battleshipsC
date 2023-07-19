@@ -57,7 +57,7 @@ public class Display
 {
     private char[,] board = new char[10, 10];
 
-    public Create()
+    public Display()
     {
         for (int row = 0; row < 10; row++)
         {
