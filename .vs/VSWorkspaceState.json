@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\battleshipC"
   ],
+  "SelectedNode": "\\battleshipC\\Battleship.cs",
   "PreviewInSolutionExplorer": false
 }

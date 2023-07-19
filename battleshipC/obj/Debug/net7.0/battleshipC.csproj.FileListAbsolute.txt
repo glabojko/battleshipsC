@@ -1,0 +1,15 @@
+E:\programowanie\projekty\C#\battleshipsC\battleshipC\bin\Debug\net7.0\battleshipC.exe
+E:\programowanie\projekty\C#\battleshipsC\battleshipC\bin\Debug\net7.0\battleshipC.deps.json
+E:\programowanie\projekty\C#\battleshipsC\battleshipC\bin\Debug\net7.0\battleshipC.runtimeconfig.json
+E:\programowanie\projekty\C#\battleshipsC\battleshipC\bin\Debug\net7.0\battleshipC.dll
+E:\programowanie\projekty\C#\battleshipsC\battleshipC\bin\Debug\net7.0\battleshipC.pdb
+E:\programowanie\projekty\C#\battleshipsC\battleshipC\obj\Debug\net7.0\battleshipC.csproj.AssemblyReference.cache
+E:\programowanie\projekty\C#\battleshipsC\battleshipC\obj\Debug\net7.0\battleshipC.GeneratedMSBuildEditorConfig.editorconfig
+E:\programowanie\projekty\C#\battleshipsC\battleshipC\obj\Debug\net7.0\battleshipC.AssemblyInfoInputs.cache
+E:\programowanie\projekty\C#\battleshipsC\battleshipC\obj\Debug\net7.0\battleshipC.AssemblyInfo.cs
+E:\programowanie\projekty\C#\battleshipsC\battleshipC\obj\Debug\net7.0\battleshipC.csproj.CoreCompileInputs.cache
+E:\programowanie\projekty\C#\battleshipsC\battleshipC\obj\Debug\net7.0\battleshipC.dll
+E:\programowanie\projekty\C#\battleshipsC\battleshipC\obj\Debug\net7.0\refint\battleshipC.dll
+E:\programowanie\projekty\C#\battleshipsC\battleshipC\obj\Debug\net7.0\battleshipC.pdb
+E:\programowanie\projekty\C#\battleshipsC\battleshipC\obj\Debug\net7.0\battleshipC.genruntimeconfig.cache
+E:\programowanie\projekty\C#\battleshipsC\battleshipC\obj\Debug\net7.0\ref\battleshipC.dll
