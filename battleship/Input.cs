@@ -1,14 +1,40 @@
 namespace Battleships_game
 {
+    // menu > rozpocznij gre > set nickname > new player > new game > new board > random placement > game
     class Input
     {
-        public static string GetMenuChoice()
-        {
-            return "";
+        public static int GetMenuChoice() {
+            bool CorrectInput = false;
+            int InputToReturn = 0;
+            while (!CorrectInput) 
+            {
+                Console.Write("Podaj numerek: ");
+                string UserInput = Console.ReadLine();
+                if (int.TryParse(UserInput, out int ParsedInput) && ParsedInput == 1 || ParsedInput == 2) {
+                    InputToReturn = ParsedInput;
+                    CorrectInput = true;
+                } 
+                else { Console.WriteLine("Weź się nie zgrywaj"); }
+            }
+            return InputToReturn;
         }
-        public static (int row, int col, string direction) GetPieceOfShipPlacement()
-        {
-            return (0, 0, "");
+        public static string GetPlayerName() {
+            bool CorrectInput = false;
+            string PlayerName = "Gracz1";
+            while (!CorrectInput) 
+            {   Display.IntroduceYourself();
+                string UserInput = Console.ReadLine();
+                if (string.IsNullOrEmpty(UserInput)) {
+                   Display.WrongName();
+                    } 
+                else { CorrectInput = true; }
+            }
+            return PlayerName;
+
+
+        //public static (int row, int col) GetPieceOfShipPlacement()
+        //{
+          //  return (0, 0);
 
 
             // dodac jakies ify zeby input byl na pewno poprawny a nie za granica boarda

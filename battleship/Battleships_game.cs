@@ -1,5 +1,6 @@
 using System;
 using System.Data;
+using System.Dynamic;
 using System.IO.Compression;
 using System.Security.Cryptography.X509Certificates;
 
@@ -10,14 +11,17 @@ namespace Battleships_game
         public static void Main()
         {
             bool gameOver = false;
-            // Player player = new Player();
-            // Board enemyBoard = new Board();
-            // enemyBoard.PlaceRandomShips();
             while (!gameOver)
             {
-                // stworzyc logike petli gry
                 Display.PrintMenu();
-                gameOver = Player.AllShipsSunk(); ;
+                int UserInput = (int)Input.GetMenuChoice();
+                if (UserInput == 1) {
+                    Input.GetPlayerName();
+                }
+                else if (UserInput == 2) {
+                    gameOver = true;
+                }
+                gameOver = Player.AllShipsSunk();
             }
         }
         public static void RoundFlow()
@@ -30,4 +34,4 @@ namespace Battleships_game
         }
 
     }
-   
+}
