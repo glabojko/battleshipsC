@@ -1,5 +1,6 @@
 
-
+namespace Battleships_game
+{
     public class Display
     {
         public static void PrintMenu()
@@ -23,3 +24,4 @@
             // tutaj chyba tylko tyle bedzie
         }
     }
+}
