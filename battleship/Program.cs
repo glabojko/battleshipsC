@@ -50,6 +50,7 @@ public class Battleship
         }
 
         Console.WriteLine("Koniec gry i tutaj będzie jeszcze cała plansza pokazana!");
+        Console.ReadLine();
     }
 }
 
