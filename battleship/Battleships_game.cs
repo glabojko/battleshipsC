@@ -1,3 +1,4 @@
+using battleship;
 using System;
 using System.Data;
 using System.Dynamic;
@@ -13,6 +14,9 @@ namespace Battleships_game
             bool gameOver = false;
             while (!gameOver)
             {
+                string[,] board = new string[10, 10];
+                Board.InitializeBoard(board);
+                Board.DisplayBoard(board);
                 Display.PrintMenu();
                 int UserInput = (int)Input.GetMenuChoice();
                 if (UserInput == 1) {
@@ -28,6 +32,7 @@ namespace Battleships_game
         {
             Display.PrintMenu();
             Display.PrintGameplay();
+            
 
             // var ShorCordinates = Input.GetShotCoordinates();
             // player.HandleShot()
