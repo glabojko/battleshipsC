@@ -26,7 +26,7 @@ namespace Battleships_game {
             // randomowe rozmieszcznie statkow na planszy dla przeciwnika
         }
 
-        internal static void PlacePieceByCordinates((int row, int col) value)
+        internal static void PlacePieceByCordinates(int row, int col)
         {
             throw new NotImplementedException();
         }

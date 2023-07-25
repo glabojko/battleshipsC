@@ -8,15 +8,17 @@ namespace battleship
 {
     public class Board
     {
-        public static char[,]? board;
+        public static int boardSize = 10;
+        public static char[,] board = new char[boardSize, boardSize];
         public static void InitializeBoard(string[,] board)
         {
-            for (int row = 0; row < 10; row++)
-            {
-                for (int col = 0; col < 10; col++)
+            for (int row = 0; row < boardSize; row++)
+    {
+                for (int col = 0; col < boardSize; col++)
                 {
-                    // Fill the board with "X" signs
-                    board[row, col] = "0";
+                    char letter = (char)('a' + row);
+                    int number = col + 1;
+                    board[row, col] = letter.ToString() + number.ToString();
                 }
             }
         }
@@ -24,9 +26,9 @@ namespace battleship
          public static void DisplayBoard(string[,] board)
             {
 
-                for (int row = 0; row < 10; row++)
+                for (int row = 0; row < boardSize; row++)
                 {
-                    for (int col = 0; col < 10; col++)
+                    for (int col = 0; col < boardSize; col++)
                     {
 
                         Console.Write($"{board[row, col],1} ");

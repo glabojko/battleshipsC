@@ -1,12 +1,14 @@
+using System.Security.Cryptography.X509Certificates;
+
 namespace Battleships_game
 {
     public class Display
     {
         public static void IntroduceYourself(){
-            Console.WriteLine("What is your name Tony?");
+            Console.WriteLine("Jak masz na imię?");
         }
         public static void WrongName(){ 
-            Console.WriteLine("Przecież to nie możliwe, żebyś miał tak na imię.");
+            Console.WriteLine("No na pewno...");
         }
         public static void PrintMenu()
         {
@@ -31,11 +33,12 @@ namespace Battleships_game
             Console.WriteLine("2 statki typu 'Destroyer' o długości 2 pól każdy");
             Console.WriteLine("2 statki typu 'Submarine' o długości 1 pola każdy");
             
-            for (int ShipNumber = 0; ShipNumber < Ship.ShipsToCreate.Count; ShipNumber++) {
-                for (int pieces = 0; pieces < Ship.GetShipSize(ShipNumber); pieces++) {
-                    //Ship.PlacePieceByCordinates(Input.GetPieceOfShipPlacement());
-                }
-            }
+            // for (int ShipNumber = 0; ShipNumber < Ship.ShipsToCreate.Count; ShipNumber++) {
+            //     for (int pieces = 0; pieces < Ship.GetShipSize(ShipNumber); pieces++) {
+            //         (int row, int col) = Input.GetPieceOfShipPlacement();
+            //         Ship.PlacePieceByCordinates(row, col);
+            //     }
+            // }
         }
         public static void PrintGameplay()
         {
